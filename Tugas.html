@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengenalan Bootstrap</title>
+    <!--Menyisipkan Bootstrap-->
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!--Awal Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Tugas Web</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Cari" aria-label="Cari">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+            </form>
+        </div>
+    </nav>
+     <!--Akhir Navbar-->
+
+     <!--Awal Jumbotron-->
+    <div class="jumbotron text-center" style="background-color:darkgray;" >
+        <img src="Pandas.jpg" alt="Panda">
+        <h1>Selamat Datang Di Dunia Hewan</h1>
+        <p>Web ini diciptakan untuk mengagumi dunia hewan diseluruh dunia</p>
+    </div>
+    <!--Akhir Jumbotron-->
+
+    <!--Awal About Dunia Binatang-->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm">
+                  <h2>About Dunia Hewan</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm">
+                  <p>Hewan, binatang, fauna, margasatwa, atau satwa adalah organisme eukariotik multiseluler yang membentuk kerajaan biologi Animalia. Dengan sedikit pengecualian, hewan mengonsumsi bahan organik, menghirup oksigen, dapat bergerak, bereproduksi secara seksual, dan tumbuh dari bola sel yang berongga, blastula, selama fase perkembangan embrio. Lebih dari 1,5 juta spesies hewan yang masih hidup telah dideskripsikan—sekitar 1 juta di antaranya adalah serangga—tetapi diperkirakan ada lebih dari 7 juta spesies hewan secara keseluruhan. Hewan memiliki panjang dari 8,5 mikrometer sampai 33,6 meter dan memiliki interaksi yang kompleks dengan satu sama lain dan dengan lingkungannya, serta membentuk jaring-jaring makanan yang rumit. Studi tentang hewan disebut zoologi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Akhir About Dunia Binatang-->
+
+    <!--Awal Card Binatang-->
+    <section id="Jenis Hewan">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm">
+                  <h2>Jenis Hewan Berdasarkan Makanan</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Karnivora.jpg" class="card-img-top" alt="Karnivora">
+                        <div class="card-body">
+                          <h5 class="card-title">Karnivora</h5>
+                          <p class="card-text">Karnivor, pemakan daging, atau satwaboga adalah makhluk hidup yang memperoleh energi dan nutrisi yang dibutuhkan dari makanan berupa jaringan hewan, baik sebagai pemangsa maupun pebangkai.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Herbivora.jpg" class="card-img-top" alt="Herbivora">
+                        <div class="card-body">
+                          <h5 class="card-title">Herbivora</h5>
+                          <p class="card-text">Herbivor, pemakan tumbuhan, atau lataboga dalam zoologi adalah hewan yang hanya makan tumbuhan dan tidak memakan daging.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div class="card" style="width: 22rem;">
+                        <img src="Omnivora.jpg" class="card-img-top" alt="Omnivora">
+                        <div class="card-body">
+                          <h5 class="card-title">Omnivora</h5>
+                          <p class="card-text">Omnivor, pemakan segala, atau sarwaboga adalah spesies yang memakan tumbuhan dan hewan sebagai sumber makanan pokoknya.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Akhir Card Binatang-->
+</body>
+</html>
